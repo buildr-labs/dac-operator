@@ -1,0 +1,10 @@
+id: example-analytic-rule-1
+tests: 
+  - name: The detection should match on data from MyTable
+    shouldMatch: True
+    logs:
+      - table: WinEventLog
+        entries: |
+          1, Bob
+          2, Alice
+          3, Charlie

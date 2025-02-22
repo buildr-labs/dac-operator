@@ -1,0 +1,6 @@
+name: WindowsEventLog
+columns:
+  - name: EventId
+    type: int
+  - name: name
+    type: string
